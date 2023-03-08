@@ -1,0 +1,173 @@
+.navbar_div {
+    display: flex;
+    
+    height: 4em;
+    margin-bottom: 15px;
+    justify-content:space-evenly;
+}
+
+
+.btn-pinterest {
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-pinterest:hover {
+    background-color: rgb(243, 239, 239);
+}
+
+.img-pinterest {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+
+
+
+.inicio{
+    width: 5em;
+    border: none;
+    background-color: black;
+    color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 26px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.buscador {
+    width: 84em;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 2px solid wheat;
+    background-color: rgb(233,233,233);
+}
+
+.img-lupa {
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-content: flex-start;
+    margin-left: 30px;
+}   
+
+.input {
+    width: 80em;
+    height: 2em;
+    margin-top: 3px;
+    border-radius: 45px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(233,233,233);
+    
+}
+
+.hoy {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-right: 24px;
+}
+
+.crear {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+}
+
+.expand-1 {
+    
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.campana {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notificacion {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    width: 27px;
+    border: none;
+    background-color: rgb(138, 93, 93);
+    border-radius: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.expand-2 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content {  
+gap: 3px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+.card-image {
+
+border-radius: 20px;
+display: inline-block;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin: 5px 10px;
+}
+
+.imagen1 {
+    border-radius: 15px;
+}
